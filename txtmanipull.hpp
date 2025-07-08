@@ -62,7 +62,7 @@ namespace TXTManipulation {
             }
             
             for (std::string c : this->content) {
-                nFile << c;
+                nFile << c << '\n';
             }
 
             nFile.close();
